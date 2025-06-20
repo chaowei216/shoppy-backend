@@ -6,10 +6,10 @@ phases:
     commands:
       - npm install -g pnpm
       - pnpm install
-    build:
+  build:
       commands:
         - pnpm prisma generate
         - pnpm build
-  artifacts:
-    files:
-      - "**/*"
+artifacts:
+  files:
+    - "**/*"
