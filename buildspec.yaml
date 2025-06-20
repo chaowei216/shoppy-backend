@@ -7,9 +7,9 @@ phases:
       - npm install -g pnpm
       - pnpm install
   build:
-      commands:
-        - pnpm prisma generate
-        - pnpm build
+    commands:
+      - pnpm prisma generate
+      - pnpm build
 artifacts:
   files:
-    - "**/*"
+    - '**/*'
